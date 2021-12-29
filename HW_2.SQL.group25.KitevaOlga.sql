@@ -4,9 +4,9 @@ create table employees(
 );
 
 insert into employees(employee_name)
-values ('Timothy Ball'),
+values     ('Timothy Ball'),
 	   ('Robert Harris'),
-       ('Scott Thompson'),
+           ('Scott Thompson'),
 	   ('Richard Beck'),
 	   ('John Moore'),
 	   ('Raymond Graves'),
@@ -155,7 +155,7 @@ alter table roles
 alter column role_name type varchar(30) using role_name::varchar(30);
 
 insert into roles(role_name)
-values ('Junior Python developer'),
+values     ('Junior Python developer'),
 	   ('Middle Python developer'),
 	   ('Senior Python developer'),
 	   ('Junior Java developer'),
